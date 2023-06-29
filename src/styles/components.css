@@ -1,0 +1,257 @@
+/* Component Specific Styles */
+
+/* TitlePage */
+.title-page-container {
+    padding: 50px;
+    background-color: #3b5998;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+.title-page-image {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+/* AboutUs */
+.about-us-container {
+    padding: 50px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 20px;
+}
+
+/* MeetTheTeam */
+.team-container {
+    padding: 50px;
+    background-color: #F4F4F4;
+    color: #333333;
+}
+
+.team-member {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.team-member-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* InvestmentStrategy */
+.strategy-container {
+    padding: 50px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 20px;
+}
+
+/* Differentiators */
+.differentiators-container {
+    padding: 50px;
+    background-color: #3b5998;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/* InvestmentOpportunities */
+.opportunities-container {
+    padding: 50px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 20px;
+}
+
+/* ConclusionAndCallToAction */
+.conclusion-container {
+    padding: 50px;
+    background-color: #3b5998;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+.get-in-touch-button {
+    display: inline-block;
+    background-color: #8b9dc3;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ...existing styles... */
+
+/* Common */
+.column-container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.bp-about-us-container {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333333;
+    font-size: 18px;
+}
+
+.bp-intro {
+    margin-bottom: 30px;
+}
+
+.bp-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bp-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.bp-section-icon {
+    font-size: 36px;
+    margin-right: 20px;
+    color: #2E5BFF;
+}
+
+.bp-join-us {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #2E5BFF;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.br-section-container {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+}
+
+.br-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.br-image-container {
+    margin: 30px 0;
+}
+
+.br-image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.br-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.br-icon {
+    text-align: center;
+}
+
+.br-icon i {
+    font-size: 36px;
+    color: #2E5BFF;
+}
+
+.br-button-container {
+    margin: 30px 0;
+}
+
+.br-explore-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2E5BFF;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.blackrock-section {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .blackrock-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .investment-strategy-section {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .investment-strategy-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .venn-diagram-container {
+    position: relative;
+    height: 150px;
+    width: 180px; /* Further adjusted width to double the overlap area */
+  }
+  
+  .venn-circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .venn-circle-left {
+    left: 0;
+  }
+  
+  .venn-circle-right {
+    right: 0;
+  }
+  
+  .circle-text {
+    position: absolute;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+  }
+  
+  .venn-overlap-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+  }
+  

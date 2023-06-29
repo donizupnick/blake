@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import '../src/styles/main.css';
+import '../src/styles/components.css';
+import TitlePage from '../src/components/TitlePage';
+import AboutUs from '../src/components/AboutUs';
+import MeetTheTeam from '../src/components/MeetTheTeam';
+import InvestmentStrategy from '../src/components/InvestmentStrategy';
+import Differentiators from '../src/components/Differentiators';
+import InvestmentOpportunities from '../src/components/InvestmentOpportunities';
+import ConclusionAndCallToAction from '../src/components/ConclusionAndCallToAction';
+import BlackRockStyleSection from './components/TestBlackstone';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <TitlePage />
+            <BlackRockStyleSection />
+            <AboutUs />
+            <MeetTheTeam />
+            <InvestmentStrategy />
+            <Differentiators />
+            <InvestmentOpportunities />
+            <ConclusionAndCallToAction />
+        </div>
+    );
+};
 
 export default App;
