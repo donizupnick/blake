@@ -1,11 +1,11 @@
 import React from 'react';
+import '../styles/components.css';
 
 const TitlePage = () => {
     return (
-        <div className="title-page-container" >
+        <div className="title-page">
             <h1>BLP Opportunity Fund 1</h1>
-            <p>Turning Uncertainty into Opportunity</p>
-            <img className="title-page-image" src="https://static.vecteezy.com/system/resources/previews/000/388/900/original/modern-company-logo-design-vector.jpg" alt="BLP Logo" />
+            <p className="slogan">Turning Uncertainty into Opportunity</p>
         </div>
     );
 };

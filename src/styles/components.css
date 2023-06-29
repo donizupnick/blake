@@ -1,257 +1,232 @@
-/* Component Specific Styles */
-
-/* TitlePage */
-.title-page-container {
-    padding: 50px;
-    background-color: #3b5998;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    
-}
-
-.title-page-image {
-    width: 30%;
-    height: auto;
-    border-radius: 50%;
-    margin-right: 20px;
-    
-}
-
-/* AboutUs */
-.about-us-container {
-    padding: 50px;
-    background-color: #FFFFFF;
-    color: #333333;
-    font-size: 20px;
-}
-
-/* MeetTheTeam */
-.team-container {
-    padding: 50px;
-    background-color: #F4F4F4;
-    color: #333333;
-}
-
-.team-member {
+/* Global styles */
+.row {
     display: flex;
-    margin-bottom: 30px;
-}
-
-.team-member-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-/* InvestmentStrategy */
-.strategy-container {
-    padding: 50px;
-    background-color: #FFFFFF;
-    color: #333333;
-    font-size: 20px;
-}
-
-/* Differentiators */
-.differentiators-container {
-    padding: 50px;
-    background-color: #3b5998;
-    color: #FFFFFF;
-    font-size: 20px;
-}
-
-/* InvestmentOpportunities */
-.opportunities-container {
-    padding: 50px;
-    background-color: #FFFFFF;
-    color: #333333;
-    font-size: 20px;
-}
-
-/* ConclusionAndCallToAction */
-.conclusion-container {
-    padding: 50px;
-    background-color: #3b5998;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-}
-
-.get-in-touch-button {
-    display: inline-block;
-    background-color: #8b9dc3;
-    color: #FFFFFF;
-    padding: 15px 30px;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* ...existing styles... */
-
-/* Common */
-.column-container {
-    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
 }
 
 .column {
     flex: 1;
     padding: 20px;
+    text-align: center;
 }
 
-.icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+/* Title Page */
+.title-page {
+    text-align: center;
+    padding: 100px;
+    background-color: #2E5BFF;
+    color: #ffffff;
 }
 
-.bp-about-us-container {
+.slogan {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* About Us */
+.about-us {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Investing Strategy */
+.investing-strategy {
     padding: 50px;
     background-color: #f9f9f9;
     color: #333333;
     font-size: 18px;
 }
 
-.bp-intro {
-    margin-bottom: 30px;
-}
-
-.bp-columns {
+.process-row {
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
-.bp-column {
-    flex: 1;
-    padding: 20px;
+.process-step {
     background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    flex: 1;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
 }
 
-.bp-section-icon {
+.process-step i {
     font-size: 36px;
-    margin-right: 20px;
+    margin-bottom: 20px;
     color: #2E5BFF;
 }
 
-.bp-join-us {
-    text-align: center;
-    margin-top: 50px;
-    background-color: #2E5BFF;
-    color: #ffffff;
+.process-detail {
+    flex: 2;
     padding: 20px;
+    font-size: 16px;
+    text-align: justify;
 }
 
-.br-section-container {
+/* Differentiators Detailed */
+.differentiators-detailed {
     padding: 50px;
     background-color: #f9f9f9;
     color: #333333;
     font-size: 18px;
-    text-align: center;
 }
 
-.br-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.br-image-container {
-    margin: 30px 0;
-}
-
-.br-image-container img {
-    max-width: 100%;
-    height: auto;
-}
-
-.br-icons {
+.differentiator-detailed {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
-    margin: 30px 0;
+    align-items: flex-start;
 }
 
-.br-icon {
+.differentiator-detailed i {
+    font-size: 48px;
+    margin-right: 30px;
+    color: #2E5BFF;
+    flex-shrink: 0;
+}
+
+.differentiator-detailed h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.differentiator-detailed p {
+    font-size: 16px;
+    text-align: justify;
+    flex: 1;
+}
+
+/* Conclusion */
+.conclusion {
+    padding: 50px;
+    background-color: #2E5BFF;
+    color: #ffffff;
+    font-size: 18px;
     text-align: center;
 }
 
-.br-icon i {
+/* Icons */
+.fas {
     font-size: 36px;
+    margin-bottom: 20px;
     color: #2E5BFF;
 }
 
-.br-button-container {
-    margin: 30px 0;
+.additional-blurb {
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
 }
 
-.br-explore-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #2E5BFF;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        margin-bottom: 30px;
+    }
+
+    .process-row {
+        flex-direction: column;
+    }
+
+    .process-step {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .differentiator-detailed {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .differentiator-detailed i {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
 }
 
-.blackrock-section {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  .blackrock-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  .investment-strategy-section {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  .investment-strategy-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .venn-diagram-container {
-    position: relative;
-    height: 150px;
-    width: 180px; /* Further adjusted width to double the overlap area */
-  }
-  
-  .venn-circle {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+/* ... previous styles ... */
+
+/* Differentiators Detailed */
+.differentiators-detailed {
+    padding: 50px;
+    background-color: #e6f7ff;
+    color: #333333;
+    font-size: 18px;
+}
+
+.differentiator-card {
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
-  
-  .venn-circle-left {
-    left: 0;
-  }
-  
-  .venn-circle-right {
-    right: 0;
-  }
-  
-  .circle-text {
-    position: absolute;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 10px;
-  }
-  
-  .venn-overlap-label {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 0.8em;
-    padding: 10px;
-  }
-  
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.differentiator-icon {
+    font-size: 48px;
+    margin-right: 30px;
+    color: #2E5BFF;
+    flex-shrink: 0;
+}
+
+.differentiator-content h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.differentiator-content p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .differentiator-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .differentiator-icon {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+/* Section Background Colors */
+.title-page {
+    background-color: #2E5BFF;
+}
+
+.about-us {
+    background-color: #f9f9f9;
+}
+
+.investing-strategy {
+    background-color: #d9f2e6;
+}
+
+.differentiators-detailed {
+    background-color: #e6f7ff;
+}
+
+.conclusion {
+    background-color: #2E5BFF;
+}
