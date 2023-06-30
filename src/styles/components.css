@@ -14,7 +14,7 @@
 /* Title Page */
 .title-page {
     text-align: center;
-    padding: 100px;
+    padding: flex;
     background-color: #2E5BFF;
     color: #ffffff;
 }
