@@ -23,7 +23,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="additional-blurb">
-                <p>At Blake Partners, we buy loans, underwrite loans, buy real estate outright. We focus on value-added real estate investing. We primarily target the lower-end middle market, with a preference for story deals. Currently, Blake owns about a million and a quarter to a million and a half square feet of real estate.</p>
+                <p>At Blake Partners, we buy loans, underwrite loans, and buy real estate outright. We focus on value-added real estate investing. We primarily target the lower-end middle market, with a preference for story deals. Currently, Blake owns about a million and a quarter to a million and a half square feet of real estate.</p>
             </div>
         </div>
     );
