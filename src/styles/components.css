@@ -230,3 +230,60 @@
 .conclusion {
     background-color: #2E5BFF;
 }
+/* ... previous styles ... */
+
+/* Section Background Colors */
+.title-page {
+    background-color: #2E5BFF;
+}
+
+.about-us {
+    background-color: #f9f9f9;
+}
+
+.investing-strategy {
+    background-color: #d9f2e6;
+}
+
+.differentiators-detailed {
+    background-color: #e6f7ff;
+}
+
+.conclusion {
+    background-color: #2E5BFF;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .differentiator-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .differentiator-icon {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    /* Ensure background colors remain consistent on mobile */
+    .title-page {
+        background-color: #2E5BFF;
+    }
+
+    .about-us {
+        background-color: #f9f9f9;
+    }
+
+    .investing-strategy {
+        background-color: #d9f2e6;
+    }
+
+    .differentiators-detailed {
+        background-color: #e6f7ff;
+    }
+
+    .conclusion {
+        background-color: #2E5BFF;
+    }
+}
